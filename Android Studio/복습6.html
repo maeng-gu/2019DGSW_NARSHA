@@ -1,0 +1,40 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <!--실습1-->
+        <h1 onmouseover="
+            document.querySelector('h1').style.backgroundColor='black';
+            document.querySelector('h1').style.color='white';
+            "
+            onmouseout="
+            document.querySelector('h1').style.backgroundColor='white';
+            document.querySelector('h1').style.color='black';            
+            "
+            >마우스 갖다대기</h1>
+            
+            <input id="value" type="text" onchange="alert('텍스트');">
+            
+            <input type="button" value="표시" onclick="
+            var name = document.getElementBuId('value');
+             alert(name.value);                                        
+            ">
+            
+            
+            <h1 onmouseover="
+            document.querySelector('h1').style.backgroundColor='black';
+            document.querySelector('h1').style.color='white';
+            "
+            onmouseout="
+            document.querySelector('h1').style.backgroundColor='white';
+            document.querySelector('h1').style.color='black';            
+            ">두수의 합 구하기</h1>
+            
+            <input id="value" type="text">
+            <input id="value" type="text">
+            <input id="result" type="button" value="합계" onclick="alert(add());">
+
+
+    </body>
+
+</html>
