@@ -1,4 +1,4 @@
-# outback dog
+# Out Back Dog House
 [2019나르샤]
 학생 : 여동엽, 최정민, 이서연, 이지민, 전인성
 멘토 : 장준철 멘토님
